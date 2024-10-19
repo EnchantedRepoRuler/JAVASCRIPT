@@ -19,9 +19,38 @@
 // console.log(avg);
 
 //question 2
-let price = [250, 645, 300, 900, 50];
-for(let i =0; i<price.length; i++){
-    let offer = price[i]/10;
-    price[i] = price[i]-offer;
-}
-console.log(price);
+// let price = [250, 645, 300, 900, 50];
+// for(let i =0; i<price.length; i++){
+//     let offer = price[i]/10;
+//     price[i] = price[i]-offer;
+// }
+// console.log(price);
+
+//array methods
+// let foodItems = ["potato", "apple", "litchi", "tomato"];
+
+// console.log("array list before using push methods: ", foodItems);
+
+// foodItems.push("chips", "paneer", "burger");
+// console.log("array list after using push method: ", foodItems);
+
+// foodItems.pop();
+// console.log("array list after using pop method: ", foodItems);
+
+// console.log("array list after using tostring method: ", foodItems.toString());
+
+let marvelHeroes = ["thor", "spiderman", "ironman"];
+let dcHeroes = ["superman", "batman"];
+
+let heroes = marvelHeroes.concat(dcHeroes);
+console.log(heroes);
+
+heroes.unshift("shaktiman");//like push
+console.log(heroes);
+
+heroes.shift();//delete from start and return
+console.log(heroes);
+
+console.log(heroes.slice(2, 4));//slice(staridx, endidx)
+
+console
