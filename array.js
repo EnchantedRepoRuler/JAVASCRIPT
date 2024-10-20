@@ -39,18 +39,30 @@
 
 // console.log("array list after using tostring method: ", foodItems.toString());
 
-let marvelHeroes = ["thor", "spiderman", "ironman"];
-let dcHeroes = ["superman", "batman"];
+// let marvelHeroes = ["thor", "spiderman", "ironman"];
+// let dcHeroes = ["superman", "batman"];
 
-let heroes = marvelHeroes.concat(dcHeroes);
-console.log(heroes);
+// let heroes = marvelHeroes.concat(dcHeroes);
+// console.log(heroes);
 
-heroes.unshift("shaktiman");//like push
-console.log(heroes);
+// heroes.unshift("shaktiman");//like push
+// console.log(heroes);
 
-heroes.shift();//delete from start and return
-console.log(heroes);
+// heroes.shift();//delete from start and return
+// console.log(heroes);
 
-console.log(heroes.slice(2, 4));//slice(staridx, endidx)
+// console.log(heroes.slice(2, 4));//slice(staridx, endidx)
 
-console
+// console.log(marvelHeroes.splice(2,1,"antman"));//change the original array splice(startindex, kitne element delete karne hai, new elements add karne hai)
+
+//question 
+let companies = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
+
+// companies.shift();
+// console.log(companies);
+
+let newComapanies = companies.splice(2,1,"Ola");
+console.log(companies);
+
+companies.push("Amazon");
+console.log(companies);
