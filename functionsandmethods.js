@@ -23,8 +23,25 @@
 
 
 //arrow function
+//part of modern js
+//we can create a function and store it in a variable
+// const arrowSum = (a,b) => {
+//     console.log(a+b);
+//     return a + b;//can return also
+// };
 
-const arrowSum = (a,b) => {
-    console.log(a+b);
+
+
+
+
+//Question 1
+function countVowel = (str) =>{
+    let count = 0;
+    for(let i of str){
+        if(i=='a' || i=='e' || i=='i' || i == 'o' || i == 'u' || i == 'A' || i=='E' || i=='I' || i == 'O' || i == 'U'){
+            count += 1;
+            return count;
+        }
+    }
 };
 
